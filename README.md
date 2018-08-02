@@ -9,7 +9,7 @@
    是之前网络上
 5. trace-cmd-new
    是官方的，修改很多，而且与社区可以保持同步update.
-6. new trace-cmd update 方法如下：
-    1). git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/trace-cmd.git
-	2). https://git.kernel.org/pub/scm/linux/kernel/git/rostedt/trace-cmd.git
-	3). https://kernel.googlesource.com/pub/scm/linux/kernel/git/rostedt/trace-cmd.git
+new trace-cmd download and update 方法如下：
+1. git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/trace-cmd.git
+2. https://git.kernel.org/pub/scm/linux/kernel/git/rostedt/trace-cmd.git
+3. https://kernel.googlesource.com/pub/scm/linux/kernel/git/rostedt/trace-cmd.git
