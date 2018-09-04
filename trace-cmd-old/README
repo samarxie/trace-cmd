@@ -35,6 +35,13 @@ mkdir $HOME/test-trace
 make prefix=$HOME/test-trace
 make prefix=$HOME/test-trace install
 
+To compile for arm on Ubuntu
+1. install arm gcc
+sudo apt-get install gcc-arm-linux-gnueabi
+2. Compile
+make LDFLAGS=-static CC=arm-none-linux-gnueabi-gcc trace-cmd
+
+
 Android:
 
 Put the trace-cmd to external directory in Android source tree.
